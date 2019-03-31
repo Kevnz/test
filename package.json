@@ -1,0 +1,26 @@
+{
+  "name": "@kev_nz/test",
+  "version": "1.0.0",
+  "description": "Test framework and runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "ktest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kevnz/test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevnz/test/issues"
+  },
+  "homepage": "https://github.com/Kevnz/test#readme",
+  "devDependencies": {
+    "@kev_nz/eslint-config": "^3.2.1",
+    "eslint": "^5.16.0"
+  }
+}
