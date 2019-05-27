@@ -4,7 +4,7 @@
   "description": "Test framework and runner",
   "main": "index.js",
   "scripts": {
-    "test": "ktest"
+    "test": "node ./src/bin/index"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "devDependencies": {
     "@kev_nz/eslint-config": "^3.2.1",
     "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "emittery": "^0.4.1",
+    "globby": "^9.1.0"
   }
 }
